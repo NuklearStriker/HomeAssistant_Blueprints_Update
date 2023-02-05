@@ -211,9 +211,9 @@ fi
 if [ -d /config/blueprints/ ]
 then
 	cd /config/blueprints/
-elif [ -d $(dirname "$0")/../config/blueprints/ ]
+elif [ -d $(dirname "$0")/../blueprints/ ]
 then
-	cd $(dirname "$0")/../config/blueprints/
+	cd $(dirname "$0")/../blueprints/
 else
 	_blueprint_update_info "-! no blueprints dir found"
 	exit 1
