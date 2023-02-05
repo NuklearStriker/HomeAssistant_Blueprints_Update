@@ -16,7 +16,7 @@ run the following commands on your home-assistant server command-line
 ```bash
 mkdir -p /config/scripts/
 cd /config/scripts/
-wget -O blueprints_update.sh https://raw.githubusercontent.com/koter84/HomeAssistant_Blueprints_Update/main/blueprints_update.sh
+wget -O blueprints_update.sh https://raw.githubusercontent.com/NuklearStriker/HomeAssistant_Blueprints_Update/main/blueprints_update.sh
 chmod +x blueprints_update.sh
 ```
 
